@@ -15,7 +15,8 @@ class AppServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        //
+        Log::info("Custom Fork of TastyIgniter Loaded!");
+
     }
 
     /**
