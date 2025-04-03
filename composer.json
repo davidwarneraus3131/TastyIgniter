@@ -20,26 +20,23 @@
     "license": "MIT",
     "homepage": "https://tastyigniter.com",
     "support": {
-        "paid": "https://tastyigniter.com/premium-support",
         "issues": "https://github.com/tastyigniter/TastyIgniter/issues",
         "forum": "https://forum.tastyigniter.com",
-        "discord": "https/tastyigniter.com/discord",
+        "discord": "https://tastyigniter.com/discord",
         "docs": "https://tastyigniter.com/docs",
         "source": "https://github.com/tastyigniter/TastyIgniter"
     },
-  "repositories": [
-    {
-        "type": "vcs",
-        "url": "https://github.com/davidwarneraus3131/TastyIgniter"
-    }
-],
-
-
-   "require": {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/davidwarneraus3131/TastyIgniter.git"
+        }
+    ],
+    "require": {
         "php": "^8.3",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.10.1",
-        "tastyigniter/core": "dev-master"
+        "davidwarneraus3131/tastyigniter": "dev-main"
     },
     "require-dev": {
         "fakerphp/faker": "^1.23",
